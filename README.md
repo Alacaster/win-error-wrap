@@ -4,13 +4,13 @@ It requires the gcc extension of putting braced groups within expressions by put
 You won't see an error if you don't use "-pedantic"
 
 **HOW TO USE:**  
-First add the two C source files to your project however you do that <\br>
-Then include errorwrapper.h to your source files where you'll use it. <\br>
-So you just use WER(function()) and function can be anything. <\br>
-This is a macro which will expand to WER_16 or WER_8 depending on <\br>
-if you #define UNICODE 16 stands for wide characters (16 bit unicode)  <\br>
-it will just do everything as wchar_t instead of char. Idk why but I  <\br>
-thought it'd be better.  <\br>
+First add the two C source files to your project however you do that 
+Then include errorwrapper.h to your source files where you'll use it. 
+So you just use WER(function()) and function can be anything. 
+This is a macro which will expand to WER_16 or WER_8 depending on 
+if you #define UNICODE 16 stands for wide characters (16 bit unicode)  
+it will just do everything as wchar_t instead of char. Idk why but I  
+thought it'd be better.  
 
 So the macro will resolve to the return value of the function no matter  
 what type it is and it will not impact the namespace (it doesn't create  
