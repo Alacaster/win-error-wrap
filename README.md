@@ -18,7 +18,7 @@ a variable)
  
 It will also pass the value and the function name (to know how to check   
 the error) and the line number and file name. Then it will hash the filename  
-and check a series of strings in on of the 20 buckets (I should add more).  
+and check a series of strings in one of the 20 buckets (I should add more).  
 Then it will return an ID when it finds a function name the same.  
 
 You can set these IDs to anything depending on how the value should be  
