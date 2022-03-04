@@ -8,7 +8,7 @@ First add the two C source files to your project however you do that
 Then include errorwrapper.h to your source files where you'll use it.  
 So you just use WER(function()) and function can be anything.  
 This is a macro which will expand to WER_16 or WER_8 depending on  
-if you #define UNICODE 16 stands for wide characters (16 bit unicode)   
+if you #define UNICODE. 16 stands for wide characters (16 bit unicode)   
 it will just do everything as wchar_t instead of char. Idk why but I   
 thought it'd be better.   
 
