@@ -1,3 +1,5 @@
+currently depricated
+
 # win-error-wrap
 This is not intended for release builds but use it if you want. It's super simple and I just made it for myself.
 It requires the gcc extension of putting braced groups within expressions by putting parenthesis around it.
