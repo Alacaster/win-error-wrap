@@ -1,4 +1,4 @@
-currently depricated
+currently depricated, there's a much better version in my learnscript repo :)
 
 # win-error-wrap
 This is not intended for release builds but use it if you want. It's super simple and I just made it for myself.
